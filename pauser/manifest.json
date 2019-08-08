@@ -1,0 +1,7 @@
+{
+    "name":"Video-Pauser",
+    "version": "1.0",
+    "description": "Pauses all videos without going to the specific tab",
+    "manifest_version": 2
+}
+
