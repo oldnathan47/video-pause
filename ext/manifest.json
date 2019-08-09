@@ -1,5 +1,5 @@
 {
-  "name": "Video Pauser",
+  "name": "Video Pauser - now yourLink",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "This extension was created to pause videos with one click",
@@ -22,13 +22,11 @@
     "default_popup": "src/browser_action/browser_action.html"
   },
   "permissions": [
-    "contentSettings"
+    "contentSettings", "tabs", "<all_urls>"
   ],
   "content_scripts": [
     {
-      "matches": [
-        "https://www.google.com/*"
-      ],
+      "matches": ["<all_urls>"],
       "js": [
         "src/inject/inject.js"
       ]
