@@ -1,3 +1,4 @@
+
 // document.querySelector("#button").addEventListener("click", link),;
 
 // document.querySelector("#button").addEventListener("click", () => link());
@@ -27,3 +28,4 @@ document
 // function link() {
 //   window.open("http://www.spotify.com");
 // }
+
